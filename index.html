@@ -1,0 +1,256 @@
+
+<!-- saved from url=(0082)file:///C:/Users/MUKESH/Desktop/HtmlProjects/Responsive%20Diamond%20Generator.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Free Fire Diamond Generator</title>
+    <style>
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+
+body {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#0984e3, #00cec9);
+}
+
+.divider-1 {
+		background-color: #ffffff;
+		height: 1px;
+		margin: 0.5em 0px 1.5em;
+}
+
+.divider-1 span {
+		display: block;
+		width: 50px;
+		height: 1px;
+		background-color: #F60;
+}
+
+.divider-2 {
+		background-color: #ffffff;
+		height: 1px;
+		margin: 0.5em 0px 1.5em;
+}
+
+.divider-2 span {
+		display: block;
+		width: 50px;
+		height: 1px;
+		background-color: #1589FF;
+}
+
+.divider-3 {
+		background-color: #ffffff;
+		height: 1px;
+		margin: 0.5em 0px 1.5em;
+}
+
+.divider-3 span {
+		display: block;
+		width: 50px;
+		height: 1px;
+		background-color: #FF00FF;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+        h1 {
+            font-family: Copperplate Gothic;
+            color: #1500b8;
+        }
+        h2 {
+            font-family: Comic Sans MS;
+            color: #74ff77;
+        }
+        h3 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: rgb(255, 255, 255);
+        }
+        b {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .gmd {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  display: block;
+  height: auto;
+  margin: 1rem;
+  position: relative;
+  width: 650px;
+}
+.gmd-3 {
+    -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  -ms-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  -o-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+button {
+  margin: 20px;
+  outline: none;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  padding: 10px 25px;
+  border: 2px solid rgb(255, 255, 255);
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+/* 6 */
+.btn-6 {
+  background: #55efc4;
+  width: 200px;
+  color: rgb(0, 0, 0);
+  line-height: 40px;
+  padding: 0;
+  border: none;
+}
+.btn-6 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-6:before,
+.btn-6:after {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 2px;
+  background: #55efc4;
+}
+.btn-6:before {
+  right: 0;
+  top: 0;
+  transition: all 500ms ease;
+}
+.btn-6:after {
+  left: 0;
+  bottom: 0;
+  transition: all 500ms ease;
+}
+.btn-6:hover{
+  color: #55efc4;
+  background: transparent;
+}
+.btn-6:hover:before {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-6:hover:after {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-6 span:before,
+.btn-6 span:after {
+  position: absolute;
+  content: "";
+  background: #55efc4;
+}
+.btn-6 span:before {
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 2px;
+  transition: all 500ms ease;
+}
+.btn-6 span:after {
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  transition: all 500ms ease;
+}
+.btn-6 span:hover:before {
+  width: 100%;
+}
+.btn-6 span:hover:after {
+  width: 100%;
+}
+</style>
+</head>
+
+<body>
+<center>
+    <h1>Free Fire Diamond Generator</h1>
+    <div class="gmd gmd-3">
+    <h2>Value of Diamonds in Free Fire</h2>
+    <h3>Diamonds are one of the currencies of <i>Garena Free Fire</i> and can be used to purchase the Elite Pass, characters, pets and other items in the game. However, Free Fire diamonds aren't available for free.</h3>
+
+<div class="divider-1"> <span style="float: left;"></span></div>
+    <h2>Price of Diamonds in Free Fire</h2>
+    <img src="./index.html_files/unnamed.jpg" style="max-width: 500px;">
+<h3>Here is the price of <i>Diamonds</i> from the in-game Top-up:
+        <br><br>
+        INR 80 = <i>100</i> Diamonds
+        <br>
+        INR 250 = <i>310</i> Diamonds
+        <br>
+        INR 400 = <i>520</i> Diamonds
+        <br>
+        INR 800 = <i>1060</i> Diamonds
+        <br>
+        INR 1600 = <i>2180</i> Diamonds
+        <br>
+        INR 4000 = <i>5600</i> Diamonds</h3>
+
+		<div class="divider-2"> <span style="float: left;"></span></div>
+        <h2>How to Generate Diamonds</h2>
+        <h3>There is a <i>Button</i> given in the end of site.<br> Click on the <i>Button</i> then Fill your Details.<br> The Diamonds will be sent to your ID in <i>24 hours</i>.</h3>
+
+		<div class="divider-3"> <span style="float: left;"></span></div>
+        <h2>Trustable Site</h2>
+        <h3>It is not any kind of <i>Hack</i> or <i>Script-Writing</i>. <br> It is a kind of <i>Data</i> generated by our Website and sent to your ID. <br> Press on the Button to go to <i>Free Fire Diamond Generator</i>.</h3>
+        </div>
+  <a href="file:///C:/Users/MUKESH/Desktop/Akash&#39;s%20programing%20folder/Free%20Fire%20Diamond%20Generator/Di%20Generator.html" class="custom-btn btn-6"><span><b>Generate Diamonds</b></span></a>
+<br>
+<br><br>
+<li style="
+    color: #ffffff00;
+"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16" style="
+    color: #c6cbde;
+">
+  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+</svg><a style="
+    color: #c6cbde;
+    font-size: 20;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: &#39;Trebuchet MS&#39;, &#39;Lucida Sans Unicode&#39;, &#39;Lucida Grande&#39;, &#39;Lucida Sans&#39;, Arial, sans-serif;
+">  nnmn_ofc</a></li><h3></h3>
+        
+
+    
+    
+</center>
+
+
+</body></html>
